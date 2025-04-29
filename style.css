@@ -6,48 +6,26 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #2E86C1;
     color: white;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: transform 0.3s ease-in-out;
+    padding: 20px;
 }
 
-nav {
-    background-color: #333;
+.formations {
+    margin: 20px;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #222;
     color: white;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
-    left: 0;
-    transition: transform 0.3s ease-in-out;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Initially hide the header */
-.hidden {
-    transform: translateY(-100%);
-}
-
-/* Initially hide the nav menu */
-.nav-hidden {
-    transform: translateY(100%);
 }
